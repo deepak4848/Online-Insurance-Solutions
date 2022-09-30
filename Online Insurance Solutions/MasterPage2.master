@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="Content/font-awesome.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="logo">
+
+            <table>
+                <tr>
+                    <td>
+                        <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/images/LOGO.png"/>
+                    </td>
+                    <td style="float:right; top:9px; left:370px">
+                        <asp:TextBox ID="txtsearch" runat="server" placeholder='Type your search'></asp:TextBox>
+                        <asp:Button ID="btnsearch" runat="server" Text="SEARCH" />
+                    </td>
+                    <td style="width:60px; left:370px">
+                        <asp:Button ID="btnsignin" runat="server" Text="LOG OUT" OnClick="btnsignin_Click" />
+                    </td>
+                    <td style="width:60px; left:370px">
+                        <asp:Button ID="btnsignup" runat="server" Text=" NOW" OnClick="btnsignup_Click" />
+                    </td>
+                    <td style="width:175px; left:370px">
+                        <asp:Label ID="Label1" runat="server" Text="Toll Free: " style="color:#ff6a00; padding-left:10px; top:11px; font-family:Bebas"></asp:Label>
+                        <asp:Label ID="Label2" runat="server" Text="1800-00-02333" style="color:#75c5fa; float:right; bottom:13px; font-family:Bebas; left:12px"></asp:Label>
+                        <asp:Label ID="Label6" runat="server" Text="Amir" Visible="false" Style="top: 66px;z-index: 101;left: 35px;color: white;font-size: 15px;font-family: Bebas;font-weight: 400; letter-spacing:1px"></asp:Label>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" CssClass="menucss">
+                <StaticHoverStyle BackColor="#FF6600" />
+                <StaticMenuItemStyle HorizontalPadding="0px" VerticalPadding="10px" Font-Size="10pt" ForeColor="white" BorderColor="#62ced6" CssClass="staticstyle"/>
+                <DynamicHoverStyle BackColor="#FF6600" />
+                <DynamicMenuItemStyle BackColor="#FF6600" CssClass="dynamic" />
+                <Items> 
+                    <asp:MenuItem Text=" Home" Value="Home" NavigateUrl="Index1.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text=" Customer" Value="Customer" NavigateUrl="CustomerHomePage.aspx">
+                        <asp:MenuItem Text="Register Policy" Value="Register With Policy" NavigateUrl="CustomerRegistration.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Policy Status" Value="Policy Status" NavigateUrl="PolicyStatus.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Claim Status" Value="Claim Status" NavigateUrl="ClaimStatus.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Search Agent" Value="Search Agent" NavigateUrl="AgentSearch1.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Agent" Value="Agent" NavigateUrl="AgentHomePage.aspx">
+                        <asp:MenuItem Text="Register" Value="Register" NavigateUrl="AgentRegistration.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Search Office" Value="Search Office" NavigateUrl="OfficeSearch1.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Insurance Plans" Value="Insurance Planse" NavigateUrl="InsurancePlans1.aspx">
+                        <asp:MenuItem Text="Child Plan" Value="Child Plan" NavigateUrl="InsurancePlans1.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Term Plan" Value="Term Plan" NavigateUrl="InsurancePlans1.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Retirement Plan" Value="Retirement Plan" NavigateUrl="InsurancePlans1.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Premium Calculator" Value="Calculator" NavigateUrl="PremiumCalculatorPage.aspx">
+                        <asp:MenuItem Text="Child Plan" Value="Child Plan" NavigateUrl="PremiumCalculatorPage.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Individual Plan" Value="Individual Plan" NavigateUrl="PremiumCalculatorPage.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Retirement Plan" Value="Retirement Plan" NavigateUrl="PremiumCalculatorPage.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Pay Premium" Value="Pay Premium" NavigateUrl="PayPremiumPage.aspx">
+                        <asp:MenuItem Text="NetBanking" Value="NetBanking" NavigateUrl="PayPremiumPage.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Debit/Credit Card" Value="Debit/Credit Card" NavigateUrl="PayPremiumPage.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Locator" Value="Locator">
+                        <asp:MenuItem Text="Office Locator" Value="Office Locator" NavigateUrl="OfficeSearch1.aspx"></asp:MenuItem>
+                        <asp:MenuItem Text="Agent Locator" Value="Agent Locator" NavigateUrl="AgentSearch1.aspx"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text=" Welcome :" Value="Home"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+
+        </div>
+        <div id="banner">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/images/3.jpg" Height="240px" Width="1349px" />
+        </div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+        </asp:ContentPlaceHolder>
+    </div>
+        <div id="footer">
+          
+            <table id="tbl" class="auto-style1">
+                <tr>
+                    <td style="height:30px; color:#939393; font-size:17px; font-family:Roboto; font-weight:normal; border-bottom:1px solid #585858">
+                        <asp:Label ID="Label5" runat="server" Text="About Us"></asp:Label>
+                    </td>
+                    <td style="width:150px"></td>
+                    <td style="color:#939393; font-size:17px; font-family:Roboto; font-weight:normal; border-bottom:1px solid #585858">
+                        <asp:Label ID="Label3" runat="server" Text="Contact Us"></asp:Label>
+                    </td>
+                    <td style="width:150px"></td>
+                    <td style="color:#939393; font-size:17px; font-family:Roboto; font-weight:normal; border-bottom:1px solid #585858">
+                        <asp:Label ID="Label4" runat="server" Text="Follow Us"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p style="width:200px; color:#a7a6a6; font-size:13px; font-family:Roboto; font-weight:normal; padding-top:1px">We have a wide network of offices spread across the country to make our insurance easily available to you.</p></td>
+                    <td></td>
+                    <td style="color:#a7a6a6; font-size:13px; font-family:Roboto; font-weight:300; padding-top:2px">
+                        <p style="font-family:FontAwesome; font-size:20px; float:left; padding-right:17px"></p>
+                        Los Angeles, 1234, ipsum set emt<br />Tehun Street 008 road 234-5678<br />
+                        <p style="font-family:FontAwesome; font-size:20px; float:left; padding-right:10px"></p>
+                        info@domain.com<br />personal@mail.com</td>
+                    <td></td>
+                    <td style="padding-bottom:25px">
+                        <table id="tbl2" style="font-family:FontAwesome; font-size:15px">
+                            <tr>
+                                <td><a href="https://www.facebook.com/"></a></td>
+                                <td><a href="https://www.twitter.com/"></a></td>
+                                <td><a href="https://in.linkedin.com/"></a></td>
+                                <td><a href="https://www.instagram.com//"></a></td>
+                                <td><a href="https://plus.google.com/"></a></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+          
+        </div>
+        <div id="footer2">
+            <h1>Copyright &#169 2017 Designed by Amir khan. All rights reserved.</h1>
+            <h2>
+                <asp:HyperLink ID="HyperLink1" runat="server" Text="Home" Width="50px">Home</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink2" runat="server" Text="About Us" Width="70px">About Us</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink3" runat="server" Text="Contach Us" Width="80px">Contact Us</asp:HyperLink>
+                <asp:HyperLink ID="HyperLink4" runat="server" Text="Privacy & Policy">Privacy & Ploicy</asp:HyperLink>
+            </h2>
+          </div>
+    </form>
+</body>
+</html>

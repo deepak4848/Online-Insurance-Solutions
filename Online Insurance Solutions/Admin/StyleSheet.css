@@ -1,0 +1,2623 @@
+﻿* {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+     width:1165px;
+     height:52px;
+     left:99px;
+     top:10px;
+     display:inline-block;   
+}
+#btnsearch{
+    border:none;
+    width:80px;
+    height:31px;
+    color:#ffffff;
+    border-bottom-right-radius:3px;
+    border-top-right-radius:3px;
+    background-color: #fa774d;
+    font-weight: bold;
+    cursor:pointer;
+    font-family: Roboto;
+    font-weight:bold;
+    right:4px; 
+    font-size:12px;   
+}
+#txtsearch{
+    border-radius:5px;
+    border:1px solid #d9d8d8;
+    height:30px;
+    width:300px;
+    background-color:#f3fcfc;
+    color:#15677b;
+    padding-left:7px;
+    margin-left: -216px;
+    left:80px;
+}
+#btnsignin{
+    border:none;
+    height:30px;
+    width:80px;
+    margin-bottom:5px;
+    border-radius:4px;
+    float:right;
+    margin-left:8px;
+    color:white;
+    background-color: #fa774d;
+    font-family: Roboto;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.3);
+    font-weight: bold;
+    cursor:pointer;
+}
+#btnsignup{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+    color: white;
+    background-color: #fa774d;
+    font-family: Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.3);
+    font-weight: bold;
+    cursor:pointer;
+    top: -2px;
+    left: -1px;
+}
+#menu{
+    background:linear-gradient(#62b3bb,#008491);
+    height:40px;
+    top:17px;
+    border:none;
+    border-bottom:2px solid rgba(127, 129, 129, 0.38);
+    border-top:2px solid rgba(127, 129, 129, 0.38);
+    z-index:100;
+}
+#menu .menucss{
+    font-family:Roboto,FontAwesome;
+    font-size:14px;
+    font-weight:400;
+    cursor:pointer;
+}
+#menu .menucss .staticstyle{
+    padding-left:20px;
+    padding-right:30px;
+    font-size:14px;
+}
+#menu .menucss .dynamic{
+    color:white;
+    background: linear-gradient(#62b3bb,#008491);
+    text-align:left;
+    padding-right:40px;
+    padding:5px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+
+}
+#menu #Menu1{
+    margin-top:0px;
+    margin-left:100px;
+}
+#banner{
+    height:245px;
+    background-color:#aeacac;
+    margin-top:-5px;
+}
+#footer{
+    height:140px;
+    background-color:#2e3639;
+}
+#footer2{
+    height:40px;
+    background-color:#283033;
+    color:#939393;
+}
+#footer2 a{
+   color:#939393;
+   text-decoration:none;
+   margin-right:10px;
+}
+#tbl{
+    width:1165px;
+    left:99px;
+    top:5px;
+}
+#tbl tr td{
+
+}
+#tbl2 tr td{
+    background-color:#434b4e;
+    width:35px;
+    height:35px;
+    border-radius:5px;
+    text-align:center;
+    color:#9a9a9a;
+    
+}
+#tbl2 td:hover{
+    background-color:#2ba1ec;
+}
+#tbl2 a{
+    color:#9a9a9a;
+    text-decoration:none;
+    display:block;
+}
+#tbl2 a:hover{
+    color:white;
+}
+h1{
+    float:left;
+    font-size:12px;
+    padding-top:12px;
+    left:99px;
+    font-family:Roboto;
+    font-weight:normal;
+}
+h2{
+    float:right;
+    font-size:12px;
+    padding-top:12px;
+    right:93px;
+    font-family:Roboto;
+    font-weight:normal;
+}
+/*--------------------------------------master page1 css end----------------------------------------*/
+#back{
+    background-color:#0b4d67;
+    font-family:Roboto;
+    font-size:12px;
+    font-weight:bold;
+    color:#008491;
+}
+#loginform{
+    border:1px solid white; 
+    background-color:white;
+    float:left;
+    border-radius:5px;
+    padding-top:20px;
+    padding-bottom:150px;
+    padding-right:13px;
+}
+.txtusername{
+    border:1px solid #d9d8d8;
+    height:45px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    width: 380px;
+    font-size:13px;
+    text-align:center;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    right:73px;
+}
+.droplist{
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    left: 362px;
+    top: 165px;
+    z-index: 97;
+    padding-right: 120px;
+    padding-left: 5px;
+    color: #555555;
+    cursor: pointer;
+    height: 43px;
+}
+#back #icon{
+    border:1px solid #d9d8d8;
+    font-family:FontAwesome;
+    font-size:20px;
+    font-weight:100;
+    color:white;
+    height:45px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left: 21px;
+    padding-right: 21px;
+    left:79px;
+}
+#back #text{
+    border:1px solid red;
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    z-index:97;
+    padding-left: 10px;
+    padding-right: 10px;
+    left:76px;
+}
+.forget{
+    float:right;
+    bottom:5px;
+    cursor:pointer;
+    text-decoration:none;
+    color:#15677b;
+}
+.remember{
+    cursor:pointer;
+    bottom:9px;
+}
+.remember input[type="checkbox"]{
+    background-color:red;
+}
+.remember input{
+    width:17px;
+    height:17px;
+    top:4px;
+    left:1px;
+    cursor:pointer;
+}
+.btnlogin{
+    border:none;
+    padding-left: 171px;
+    padding-right: 171px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    cursor:pointer;
+    left:1px;
+}
+.signup{
+    border:none;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    /*box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);*/
+    bottom:80px;
+    left:180px;
+    border-bottom:4px solid #fa5825;
+    cursor:pointer;
+}
+#ext {
+    border-radius: 3px;
+    width: 420px;
+    height: 80px;
+    left: 137px;
+    background-color: white;
+    border-top: 1px solid #bfbfbf;
+    text-align: center;
+    bottom: 118px;
+    padding-left: 73px;
+    padding-right: 48px;
+    padding-bottom: 10px;
+    box-shadow: 2px black;
+}
+.dot{
+    width:40px;
+    right:105px;
+    bottom:20px;
+}
+.facebook{
+    float:left;
+    top:30px;
+}
+.gmail{
+    bottom:13px;
+    left:90px;
+}
+#container #back1{
+    border:4px solid white;
+    width:519px;
+    height:384px;
+    float:right;
+    right:86px;
+    top:22px;
+    border-bottom-right-radius:4px;
+    border-top-right-radius:4px;
+}
+#container #back1 p{
+    font-family:Bebas;
+    color:white;
+    font-size:15px;
+    bottom:100px;
+    left:100px;
+}
+/*------------------------------------login page css end----------------------------------------------*/
+#container #right #reg .txtform{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:12px;
+    width: 320px;
+    font-size:15px;
+    text-align:center;
+    bottom:20px;
+    font-weight:normal;
+    left:109px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+}
+#container #right #reg .txtform1{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:13px;
+    width: 320px;
+    text-align:center;
+    bottom:20px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    font-weight:normal;
+
+}
+#container #right #reg #cust1 .txtform1{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:13px;
+    width: 320px;
+    text-align:center;
+    bottom:20px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    right:5px;
+    font-weight:normal;
+
+}
+#container #right #reg #regtext{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    z-index:97;
+    right:3px;
+    padding-left:20px;
+    padding-right:20px;
+    bottom:20px;
+    left:222px;
+}
+#container #right #reg #regtext1{
+    height:25px;
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    z-index:99;
+    right:0px;
+    padding-left:15px;
+    padding-right:10px;
+    bottom:20px;
+    left:113px;
+}
+#container #right #reg #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+    bottom:20px;
+    left:224px;
+}
+#container #right #reg #icon1{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:100;
+    padding-left:18px;
+    padding-right:18px;
+    bottom:20px;
+    left:116px;
+}
+#container #right #reg1 #adicon1{
+    font-family: FontAwesome;
+    color: white;
+    height: 30px;
+    width: 50px;
+    background-color: #64cbf4;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 100;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    z-index: 100;
+    left: 119px;
+    padding-left: 18px;
+    padding-right: 18px;
+    bottom:50px;
+}
+#container #right #reg1 #adicona1{
+    font-family: FontAwesome;
+    color: white;
+    height: 30px;
+    width: 50px;
+    background-color: #64cbf4;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 100;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    z-index: 100;
+    left: 119px;
+    padding-left: 18px;
+    padding-right: 18px;
+    bottom:60px;
+}
+
+#container #right #reg1 #adtext1{
+    background-color: #effaff;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    color: #b3b9b9;
+    z-index: 99;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    bottom:50px;
+    left:117px;
+    text-align:center;
+
+}
+#container #right #reg1 #adtexta1{
+    background-color: #effaff;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    color: #b3b9b9;
+    z-index: 99;
+    padding-left:10px;
+    padding-right:10px;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    bottom:60px;
+    left:117px;
+    text-align:center;
+
+}
+#container #right #reg1 .adtxtform{
+    border: 1px solid #d9d8d8;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    height: 39px;
+    width: 320px;
+    right: -2px;
+    bottom: 30px;
+    font-size:13px;
+    text-align:center;
+    bottom:50px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+}
+
+#container #right #reg1 .adtxtforma{
+    border: 1px solid #d9d8d8;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    height: 39px;
+    width: 320px;
+    right: -2px;
+    bottom: 30px;
+    font-size:13px;
+    text-align:center;
+    bottom:60px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+}
+#container #right #reg1 .address{
+    border:1px solid #d9d8d8;
+    border-bottom-right-radius:4px;
+    border-bottom-left-radius:4px;
+    text-align:left;
+    font-family:Roboto;
+    font-size:12px;
+    width: 319px;
+    height:91px;
+    bottom:60px;
+    z-index:96;
+    left:115px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+}
+#container #right #reg1 #adicon{
+    background-color:#64cbf4;
+    border-top-left-radius:4px;
+    border-top:1px solid #d9d8d8;
+    border-bottom:1px solid #d9d8d8;
+    border-left:1px solid #d9d8d8;
+    border-right:1px solid #64cbf4;
+    font-family:FontAwesome;
+    color:white;
+    font-size:20px;
+    padding:10px 15px 10px 15px;
+    left:115px;
+    bottom:55px;
+
+}
+#container #right #reg1 #adtext{
+    background-color:#effaff;
+    border-top-right-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    color:#b3b9b9;
+    border:1px solid red;
+    float:left;
+    font-size:10px;
+}
+#container #right #reg1 .txtform{
+    border:1px solid #d9d8d8;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:12px;
+    height:39px;
+    width: 302px;
+    font-size:15px;
+    text-align:center;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    font-weight:normal;
+}
+#container #right #reg1 #icon{
+    font-family:FontAwesome;
+    color:white;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    width:30px;
+}
+#container #right #reg1 #regtext{
+    text-align:center;
+    background-color:#effaff;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:15px;
+    color:#4dc0eb;
+    width:40px;
+    font-size:10px;
+}
+#container #right #reg2 .txtform{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:13px;
+    width: 320px;
+    text-align:center;
+    bottom:60px;
+    left:119px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    font-weight:normal;
+}
+#container #right #reg2 .txtform1{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:13px;
+    width: 320px;
+    text-align:center;
+    bottom:60px; 
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    left:9px;
+    font-weight:normal;
+}
+#container #right #reg2 #cust2 .txtform1{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:13px;
+    width: 320px;
+    text-align:center;
+    bottom:60px; 
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    font-weight:normal;
+}
+#container #right #reg2 #regtext{
+    background-color: #effaff;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    color: #b3b9b9;
+    z-index: 99;
+    color:#4dc0eb;
+    font-family:Roboto;
+    font-size:10px;
+    bottom:60px;
+    padding-left:5px;
+    padding-right:5px;
+    left:235px;
+}
+#container #right #reg2 #icon{
+    font-family: FontAwesome;
+    color: white;
+    height: 30px;
+    background-color: #64cbf4;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 100;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    z-index: 100;
+    font-size:15px;
+    padding-left:18px;
+    padding-right:18px;
+    left:239px;
+    bottom:60px;
+    
+}
+#container #right #reg2 #regtext1{
+    background-color: #effaff;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    color: #b3b9b9;
+    z-index: 99;
+    color:#4dc0eb;
+    font-family:Roboto;
+    font-size:10px;
+    bottom:60px;
+    right:0px;
+    padding-left:8px;
+    padding-right:8px;
+    text-align:center;
+    left:120px;
+
+}
+#container #right #reg2 #icon1{
+    font-family: FontAwesome;
+    color: white;
+    height: 30px;
+    background-color: #64cbf4;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 100;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    z-index: 100;
+    font-size:15px;
+    padding-left:20px;
+    padding-right:20px;
+    bottom:60px;
+    left:125px;
+}
+#reg .radiobtn{
+    float:left;
+    top:108px;
+    z-index:100;
+    font-family:Roboto;
+    font-size:13px;
+    color:#555555;
+    padding-left:15px;
+    padding-right:15px;
+    left:210px;
+}
+#container #right #reg .dob{
+    z-index:100;
+    top:60px;
+    right:22px;
+    padding-left:5px;
+    padding-right:5px;
+    border:none;
+    color:#555555;
+    font-family:Roboto;
+    font-size:12px;
+    left:55px;
+
+}
+#container #right #reg1 .dob1{
+    z-index:100;
+    left:244px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:104px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    bottom:17px;
+    font-size:12px;
+    float:left;
+
+}
+#container #right #reg1 .doba1{
+    z-index:100;
+    left:244px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:104px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    bottom:10px;
+    font-size:12px;
+    float:left;
+
+}
+#container #right #reg1 .dob2{
+    z-index:100;
+    left:52px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:110px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    top:30px;
+    float:left;
+}
+#container #right #reg1 .doba2{
+    z-index:100;
+    left:52px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:115px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    top:38px;
+    float:left;
+}
+#container #right #reg1 .dob3{
+    z-index:100;
+    left:244px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:82px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    top:65px;
+    float:left;
+}
+#container #right #reg1 .doba3{
+    z-index:100;
+    left:244px;
+    color:#555555;
+    padding-left:0px;
+    padding-right:83px;
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    top:65px;
+    float:left;
+}
+#container #right #btn .btnsub{
+    border:none;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 4px;
+    bottom: 48px;
+    left:163px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-weight:normal;
+    letter-spacing:1px;
+    font-weight:normal;
+    font-family:Roboto,FontAwesome;
+    margin-right:115px;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    cursor:pointer;
+}
+#container #left h1{
+    font-family:Roboto;
+    font-size:25px;
+    color:white;
+    font-weight:normal;
+    z-index:100;
+    top:60px;
+    text-align:center;
+}
+#container #left h3{
+    font-family:Roboto;
+    font-size:18px;
+    color:white;
+    font-weight:normal;
+    text-align:center;
+
+}
+#container #left p{
+    font-family:Roboto,FontAwesome;
+    font-size:12px;
+    color:white;
+    padding-left:100px;
+    text-wrap:normal;
+    margin-top:40px;
+    margin-bottom:71px;
+}
+#container #left #cust p{
+    font-family:Roboto,FontAwesome;
+    font-size:12px;
+    color:white;
+    padding-left:100px;
+    text-wrap:normal;
+    margin-top:40px;
+    margin-bottom:103px;
+}
+#container #left h2{
+    font-family:FontAwesome;
+    color:white;
+    font-size:100px;
+    opacity:0.9;
+    color:rgba(0, 132, 145, 0.74);
+    right:180px;
+    font-weight:lighter;
+    margin-bottom:10px;
+}
+#container #left #cust h2{
+    font-family:FontAwesome;
+    color:white;
+    font-size:100px;
+    opacity:0.9;
+    color:#6bd8c3;
+    right:180px;
+    font-weight:lighter;
+    margin-bottom:10px;
+}
+/*----------------------------------------------------End of Customer page css----------------------------------------------------------------*/
+#top #right #head{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:35px;
+    text-align:left;
+    font-weight:bold;
+}
+#top #right p{
+    color:#555555;
+    font-family:Roboto;
+    font-size:13px;
+    padding-top:5px;
+}
+#top #right #head1{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:20px;
+    text-align:left;
+}
+#top #right #head2{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:20px;
+    text-align:left;
+    padding-top:30px;
+}
+#top #right #icon{
+    color:#00b289;
+    font-family:FontAwesome;
+    font-size:20px;
+    padding-right:20px;
+    padding-left:20px;
+}
+#top #right #icon1{
+    color:#00b289;
+    font-family:FontAwesome;
+    font-size:20px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:30px;
+}
+#down #right1 #p{
+    color:#1e3953;
+    font-family:Roboto;
+    font-size:20px;
+}
+#down #right1 #h4{
+    color:#1e3953;
+    font-family:Roboto;
+    font-size:20px;
+    text-align:left;
+    margin-top:10px;
+    border-bottom:3px solid white;
+    padding-top:15px;
+    z-index:100;
+}
+#down #right1 #progress{
+     border-bottom:4px solid #f8333c;
+     border-bottom-left-radius:4px;
+     border-top-left-radius:4px;
+     width:400px; bottom:4px;
+}
+#down #right1 #progress1{
+     border-bottom:4px solid #45a4ff;
+     border-bottom-left-radius:4px;
+     border-top-left-radius:4px;
+     width:310px; bottom:4px;
+}
+#down #right1 #progress2{
+     border-bottom:4px solid #fde74c;
+     border-bottom-left-radius:4px;
+     border-top-left-radius:4px;
+     width:500px; bottom:4px;
+}
+#down #right1 #progress3{
+     border-bottom:4px solid #58c4a7;
+     border-bottom-left-radius:4px;
+     border-top-left-radius:4px;
+     width:515px; bottom:4px;
+}
+#down #right1 p{
+    font-family:Roboto;
+    font-size:16px;
+    font-weight:600;
+    margin-top:10px;
+    margin-bottom:10px;
+    color:#888888;
+}
+#down #right1 label{
+    color:black;
+}
+#down #left1 p{
+    margin-top:5px;
+    padding-right:20px;
+    color:#555555;
+    font-weight:500;
+    font-family:Roboto;
+    font-size:13px;
+}
+#down #left1 #head2{
+    font-family:Roboto;
+    font-size:30px;
+    font-weight:bold;
+    color:#1e3953;
+}
+/*-------------------------------------------------------End of about us page css---------------------------------------------------------------------*/
+#contact #left .txtform{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:12px;
+    width: 520px;
+    font-size:15px;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    right:129px;
+    text-align:center;
+}
+#contact #left #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    z-index:97;
+    padding-left:20px;
+    padding-right:20px;
+    right:4px;
+}
+#contact #left #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#contact #left #message #icon1{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding:8px 15px 8px 17px;
+
+}
+#contact #left #message #text1{
+    background-color:#effaff;
+    border:1px;
+    border:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    z-index:97;
+    border-radius:4px;
+    text-align:center;
+    width:520px;
+    right:34px;
+    height:39px;
+    box-shadow: 1px -1px 3px rgba(127, 129, 129, 0.30);
+
+}
+#contact #left #message .msg{
+    border:1px solid #d9d8d8;
+    height:150px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:12px;
+    width: 520px;
+    font-size:12px;
+    text-align:left;
+    font-weight:lighter;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    bottom:8px;
+}
+#contact #left #btn .btnsend{
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    padding:10px 70px 10px 70px;
+    top:30px;
+    margin-right:15px;
+    cursor:pointer;
+}
+#contact #right #head{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:35px;
+    text-align:left;
+    font-weight:bold;
+}
+#contact #right p{
+    color:#555555;
+    font-family:Roboto;
+    font-size:13px;
+    padding-top:5px;
+}
+#contact #right #icon{
+    color:#00b289;
+    font-family:FontAwesome;
+    font-size:25px;
+    padding-right:15px;
+}
+#contact #right #head1{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:25px;
+    text-align:left;
+    font-weight:bold;
+}
+/*-----------------------------------------------------------End of contact us page css----------------------------------------------------------------*/
+#fogpasd #right #head{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:35px;
+    text-align:left;
+    font-weight:bold;
+}
+#fogpasd #right p{
+    color:#555555;
+    font-family:Roboto;
+    font-size:13px;
+    padding-top:5px;
+}
+#fogpasd #right #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#fogpasd #right #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    right:4px;
+}
+#fogpasd #right .textform{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    width: 340px;
+    font-size:14px;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align:center;
+    right:131px;
+}
+#fogpasd #right .btnsend{
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:340px;
+    height:39px;
+}
+#fogpasd #right .usertype{
+    z-index:100;
+    float:right;
+    width:217px;
+    padding-right:10px;
+    right:258px; 
+    font-family:Roboto;
+    color:#555555;
+    font-weight:400;
+    border:none;
+    top:160px;
+    padding-left:10px;
+    height:39px;
+}
+/*---------------------------------------------------------------End of forget password page css--------------------------------------------------------*/
+#chngpsd #left #head{
+    color:#15677b;
+    font-family:Roboto;
+    font-size:35px;
+    text-align:left;
+    font-weight:bold;
+}
+#chngpsd #left p{
+    color:#555555;
+    font-family:Roboto,FontAwesome;
+    font-size:13px;
+    padding-top:10px;
+} 
+#chngpsd #left #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+
+}
+#chngpsd #left #text{
+    
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    right:4px;
+
+}
+#chngpsd #left .textform{
+    border:1px solid #d9d8d8;
+    height:39px;
+    border-radius:4px;
+    text-align:center;
+    font-family:Roboto;
+    font-size:12px;
+    width: 400px;
+    font-size:15px;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align:center;
+    right:137px;
+}
+#chngpsd #left .btnsend{
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:400px;
+    height:39px;
+}
+#chngpsd #left #icon1{
+    
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:19px;
+    padding-right:19px;
+
+}
+#chngpsd #left #text1{
+    
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    right:4px;
+
+}
+#chngpsd #right img{
+    border:6px solid white;
+    box-shadow:2px 1px 3px 1px #b3b9b9;
+    bottom:5px;
+}
+/*----------------------------------------------------------------End of change password page css--------------------------------------------------------*/
+#homepage{
+    background-repeat:no-repeat;
+    background-position:bottom;
+}
+#homepage #left img{
+    top:70px;
+    left:30px;
+}
+#indexheading p{
+    color:white;
+    font-family:Bebas;
+    font-size:30px;
+    text-align:center;
+    top:15px;
+    z-index:100;
+}
+#heading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:30px;
+    top:20px;
+    z-index:100;
+    color:#15677b;
+}
+#heading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:23px;
+    font-weight:400;
+}
+#heading label{
+    border-bottom: 2px solid #e5e5e5;
+    z-index: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+    left: 373px;
+    top: 12px;
+}
+#heading #lbl{
+    border-bottom: 2px solid #00b289;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    top: 12px;
+    left: -28px;
+}
+#homepage #right .hovereffect:hover{
+    animation: bounce 1s;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+/*----------------------------------------------------------End of index page css--------------------------------------------------------------------------*/
+#signupcontainer #left h1{
+    color: #1e3953;
+    font-family: Bebas;
+    font-size: 25px;
+    left: 200px;
+}
+#signupcontainer #right h1{
+    color: #1e3953;
+    font-family: Bebas;
+    font-size: 25px;
+    left: 226px;
+}
+#signupcontainer #left img{
+    top: 40px;
+    left:10px;
+}
+#signupcontainer #right img{
+    top: 40px;
+    left: 55px;
+}
+#signupcontainer #heading p{
+    font-family:Bebas;
+    font-size:35px;
+    color:#1e3953;
+}
+#signupcontainer #left .btnregister{
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:200px;
+    height:39px;
+    left:155px;
+    top:40px;
+    cursor:pointer;
+}
+#signupcontainer #right .btnregister{
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:200px;
+    height:39px;
+    left:155px;
+    top:40px;
+    cursor:pointer;
+}
+#signupcontainer h2{
+    font-family: FontAwesome;
+    font-size: 100px;
+    right: 117px;
+    top: 155px;
+    color:#cdcdcd;
+    opacity:0.3;
+}
+/*-----------------------------------------------end of signup page css---------------------------------------------------------------------*/
+#planheading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    top:5px;
+    color:#15677b;
+}
+#planheading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:5px;
+    font-weight:100;
+}
+#planheading label{
+    border-bottom: 2px solid rgba(179, 185, 185, 0.93);
+    z-index: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+    left: 373px;
+    bottom:8px;
+}
+#planheading #lbl{
+    border-bottom: 2px solid #00b289;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: -28px;
+    bottom:8px;
+}
+#insplans p{
+    top:200px;
+    left:43px;
+    font-family:Roboto,FontAwesome;
+    font-size:13px;
+    color:#888888;
+    font-weight:lighter;
+}
+#insplans #child label{
+    font-family: Bebas;
+    top: 180px;
+    left: 103px;
+    font-size: 25px;
+    color:#15677b;
+}
+#insplans #individual label{
+    font-family: Bebas;
+    top: 180px;
+    left: 77px;
+    font-size: 25px;
+    color:#15677b;
+}
+#insplans #retirement label{
+    font-family: Bebas;
+    top: 180px;
+    left: 71px;
+    font-size: 25px;
+    color:#15677b;
+}
+#insplans .btnbuy{
+    border: 1px solid black;
+    top: 240px;
+    left: 63px;
+    border:none;
+    border-radius: 4px;
+    background-color:#fa774d;
+    color:white;
+    font-size:15px;
+    font-family:Roboto,FontAwesome;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:200px;
+    height:39px;
+    cursor:pointer;
+}
+/*-------------------------------------------------end of insurance plan page css-------------------------------------------------------------------*/
+#plcyheading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:27px;
+    z-index:100;
+    top:10px;
+    color:#15677b;
+}
+#plcyheading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:15px;
+    font-weight:normal;
+}
+#plcyheading label{
+    border-bottom: 2px solid rgba(179, 185, 185, 0.93);
+    z-index: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+    left: 373px;
+    top:5px;
+}
+#plcyheading #lbl{
+    border-bottom: 2px solid #d86a07;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: -28px;
+    top:5px;
+}
+#policycontainer #right #firttbl #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#policycontainer #right #firttbl #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    right:3px;
+
+}
+#policycontainer #right #firttbl .textform {
+    border: 1px solid #d9d8d8;
+    height: 39px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 340px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:135px;
+}
+#policycontainer #right #secondtbl #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+    left:137px;
+}
+#policycontainer #right #secondtbl #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    left:133px;
+
+}
+#policycontainer #right #secondtbl .textform {
+    border: 1px solid #d9d8d8;
+    height: 39px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 340px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+}
+#policycontainer #right #btn .btnbuy{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:250px;
+    height:39px;
+    cursor:pointer;
+    top:65px;
+    margin-left:93px;
+}
+#policycontainer #right #firttbl .duration{
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    z-index: 97;
+    padding-right: 93px;
+    padding-left: 5px;
+    color: #555555;
+    cursor: pointer;
+    top:87px;
+    left:132px;
+}
+#policycontainer #right .startdate{
+    z-index:100;
+    padding-left:5px;
+    padding-right:7px;
+    border:none;
+    color:#555555;
+    font-family:Roboto;
+    font-size:14px;
+    left:173px;
+    bottom:78px;
+    font-weight:normal;
+    margin-right: 7px;
+}
+/*----------------------------------------------------------end of policy page css------------------------------------------------------------------*/
+#pymtcontainer #right #firttbl #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#pymtcontainer #right #firttbl #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    right:3px;
+
+}
+#pymtcontainer #right #firttbl .textform {
+    border: 1px solid #d9d8d8;
+    height: 39px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 340px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:130px;
+}
+#pymtcontainer #right #secondtbl #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+    left:137px;
+}
+#pymtcontainer #right #secondtbl #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 18px;
+    z-index:100;
+    left:135px;
+
+}
+#pymtcontainer #right #secondtbl .textform {
+    border: 1px solid #d9d8d8;
+    height: 39px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 340px;
+    font-size: 14px;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:2px;
+}
+#pymtcontainer #right #btn .btnbuy{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+   font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:250px;
+    height:39px;
+    cursor:pointer;
+    top:35px;
+    margin-left:93px;
+
+}
+#pymtcontainer #right #firttbl .duration{
+        border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight:normal;
+    z-index: 97;
+    padding-right: 123px;
+    padding-left: 0;
+    color: #555555;
+    cursor: pointer;
+    top: 103px;
+    left: 130px;
+}
+#pymtcontainer #right #firttbl .bank{
+    border: none;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-size: 14px;
+    z-index: 97;
+    padding-right: 100px;
+    padding-left: 0;
+    color: #555555;
+    cursor: pointer;
+    top: 245px;
+    left: 130px;
+    font-weight:normal;
+}
+#pymtcontainer #right .startdate{
+    z-index:100;
+    padding-left:5px;
+    padding-right:7px;
+    border:none;
+    color:#b3b9b9;
+    font-family:Roboto;
+    font-size:12px;
+    left:174px;
+    bottom:125px;
+    font-weight:normal;
+}
+#pymtcontainer #right .validupto{
+    z-index:100;
+    padding-left:0px;
+    padding-right:20px;
+    border:none;
+    color:#555555;
+    font-family:Roboto;
+    font-size:14px;
+    left:553px;
+    bottom:162px;
+    margin-right:30px;
+    font-weight:normal;
+}
+#pymtcontainer #right .cardtype{
+    z-index: 100;
+    padding-left: 0;
+    padding-right: 55px;
+    border: none;
+    color: #555555;
+    font-family: Roboto;
+    font-size: 14px;
+    left: 325px;
+    bottom: 269px;
+    font-weight:normal;
+}
+#pymtcontainer #left img{
+    top:20px;
+}
+#pymtcontainer p img{
+    left: 810px;
+    z-index: 100;
+    top: 191px;
+    height: 22px;
+}
+/*------------------------------------------------------------end of payment page css--------------------------------------------------------------------*/
+#premiumheading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    top:15px;
+    color:#15677b;
+}
+#premiumheading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:20px;
+    font-weight:normal;
+}
+#premiumheading label{
+    border-bottom: 2px solid rgba(179, 185, 185, 0.93);
+    z-index: 100;
+    padding-left: 300px;
+    padding-right: 300px;
+    left: 373px;
+    top:10px;
+}
+#premiumheading #lbl{
+    border-bottom: 2px solid #d86a07;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: -28px;
+    top:10px;
+}
+#paypremium #left #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#paypremium #left #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    right:3px;
+
+}
+#paypremium #left .textform {
+    border:1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 360px;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:121px;
+
+}
+#paypremium #left .premium{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:170px;
+    height:39px;
+    cursor:pointer;
+    top:60px;
+    margin-left:20px;
+    left:10px;
+}
+#paypremium #left .startdate{
+    z-index:100;
+    padding-left:10px;
+    padding-right:7px;
+    border:none;
+    color:#b3b9b9;
+    font-family:Roboto;
+    font-size:12px;
+    left:150px;
+    bottom:167px;
+}
+/*-------------------------------------------end of premium payment page---------------------------------------------------------------------------*/
+#claimheading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    top:15px;
+    color:#15677b;
+}
+#claimheading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:20px;
+    font-weight:normal;
+}
+#claimheading label{
+    border-bottom: 2px solid #b3b9b9;
+    z-index: 100;
+    padding-left: 250px;
+    padding-right: 250px;
+    left: 415px;
+    top:10px;
+}
+#claimheading #lbl{
+    border-bottom: 2px solid #d86a07;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: 70px;
+    top:10px;
+}
+#claim #left #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+}
+#claim #left #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    right:3px;
+
+}
+#claim #left .textform {
+    border:1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    width: 360px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:135px;
+
+}
+#claim #left .premium{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:170px;
+    height:39px;
+    cursor:pointer;
+    top:20px;
+    margin-left:20px;
+    left:10px;
+}
+#claim #left .reson{
+    z-index:100;
+    padding-right:65px;
+    border:none;
+    color:#555555;
+    font-family:Roboto;
+    font-size:14px;
+    left:170px;
+    bottom:7px;
+    border:none;
+}
+#claim #left .status{
+    z-index: 100;
+    padding-left: 10px;
+    padding-right: 156px;
+    border: none;
+    color: #b3b9b9;
+    font-family: Roboto;
+    font-size: 12px;
+    right: 50px;
+    bottom: 6px;
+    border: none;
+}
+#claim #left #icon1{
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: white;
+    height: 30px;
+    background-color: #64cbf4;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    z-index: 99;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    bottom: 24px;
+    left: 30px;
+}
+#claim #left #text1{
+    text-align: center;
+    background-color: #effaff;
+    border: 1px;
+    border-bottom: 1px solid #d9d8d8;
+    border-top: 1px solid #d9d8d8;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-right: 1px solid #d9d8d8;
+    font-family: Roboto;
+    font-size: 10px;
+    color: #4dc0eb;
+    padding: 0px 138px 0px 138px;
+    box-shadow: 2px -1px 4px rgba(127, 129, 129, 0.2);
+    z-index: 100;
+    left: 28px;
+    bottom: 24px;
+
+}
+#claim #left .textform1 {
+    border: 1px solid #d9d8d8;
+    height: 80px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 359px;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    left: 30px;
+    bottom: 30px;
+    text-align:start;
+}
+#claim #right img{
+    left:100px;
+    top:25px;
+}
+#claim #right .claimmsg{
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+    top: 41px;
+    right: 115px;
+}
+/*------------------------------------------End of claim page css------------------------------------------------------------------------------------*/
+#premcal #left #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:17px;
+    padding-right:17px;
+    left:27px;
+}
+#premcal #left #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    left:25px;
+
+}
+#premcal #left .textform {
+    border:1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 360px;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:90px;
+
+}
+#premcal #left .selectplan{
+    z-index:100;
+    border:none;
+    color:rgba(127, 129, 129, 0.90);
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    left:145px;
+    bottom:34px;
+    padding-right:125px;
+}
+#premcal #left #icon1{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:15px;
+    padding-right:15px;
+    left:27px;
+}
+#premcal #left #text1{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 15px 0px 15px;
+    z-index:100;
+    left:25px;
+
+}
+#premcal #left .textform1{
+    border:1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 360px;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:90px;
+
+}
+#premcal #left .selectterm{
+    z-index:100;
+    border:none;
+    color:rgba(127, 129, 129, 0.90);
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    left:147px;
+    bottom:132px;
+    padding-right:145px;
+}
+#premcal #left .dob{
+    z-index:100;
+    border:none;
+    color:rgba(127, 129, 129, 0.90);
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    right: 85px;
+    bottom: 5px;
+    padding-right: 22px;
+}
+#premcal #left .premium{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:170px;
+    height:39px;
+    cursor:pointer;
+    top:30px;
+    margin-left:20px;
+    left:6px;
+}
+.panel p{
+    color:#15677b;
+    font-family:Bebas;
+    font-size:15px;
+    font-weight:100;
+}
+.panel {
+    color:#555555;
+    font-family:Roboto;
+    font-size:15px;
+    font-weight:normal;
+    border-top:2px solid #d86a07;
+    height:200px;
+}
+.panel .btnbuy1{
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:300px;
+    height:39px;
+    cursor:pointer;
+    top:15px;
+    left: -1px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+.panel .errormsg{
+    color:red;
+    top:25px;
+    float:right;
+    right:400px;
+}
+/*------------------------------------------end of premium calculator page---------------------------------------------------------------*/
+#agentsrchheading p{
+    font-family:Bebas;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+    top:15px;
+    color:#15677b;
+}
+#agentsrchheading h6{
+    font-family:Roboto;
+    color:#555555;
+    font-size:15px;
+    z-index:100;
+    text-align:center;
+    top:20px;
+    font-weight:normal;
+}
+#agentsrchheading label{
+    border-bottom: 2px solid #b3b9b9;
+    z-index: 100;
+    padding-left: 250px;
+    padding-right: 250px;
+    left: 425px;
+    top:10px;
+}
+#agentsrchheading #lbl{
+    border-bottom: 2px solid #d86a07;
+    z-index: 100;
+    padding-left: 100px;
+    padding-right: 100px;
+    left: 80px;
+    top:10px;
+}
+#form #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:17px;
+    padding-right:17px;
+}
+#form #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    right:2px;
+}
+#form .textform {
+    border:1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    width: 330px;
+    font-size: 15px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right:116px;
+}
+#form .city{
+    z-index:100;
+    border:none;
+    color:rgba(127, 129, 129, 0.90);
+    font-family:Roboto;
+    font-size:12px;
+    border:none;
+    padding-right: 22px;
+    bottom: 35px;
+    left: 120px;
+    padding-right: 115px;
+}
+#button .searchbtn{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:300px;
+    height:39px;
+    cursor:pointer;
+    right:360px;
+}
+#button .officesearch{
+    color: red;
+    float: right;
+    right: 229px;
+    bottom: 30px;
+    font-family: roboto;
+}
+#button .officesearch1{
+    color: red;
+    float: right;
+    right: 229px;
+    top: 10px;
+    font-family: roboto;
+}
+#searchresult .gridview{
+    border:1px solid #15677b;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    top:20px;
+}
+#searchresult .gridview th{
+    border:1px solid #15677b;
+    font-family:Bebas;
+    font-size:16px;
+    font-weight:400;
+    padding:10px 40px 10px 40px;
+    background-color:#4dc0eb;
+    color:white;
+    letter-spacing:1px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+}
+#searchresult .gridview td{
+    border:1px solid #15677b;
+    background-color:#effaff;
+    padding:10px;
+    color:#555555;
+    font-family:Roboto;
+    font-size:14px;
+    font-weight:normal;
+    text-align:center
+}
+#branch p{
+    color:#fa774d;
+    font-family:Roboto;
+    left:-2px;
+}
+#branch h1{
+    color:#fa774d;
+    font-family:Roboto;
+    font-size:25px;
+    font-weight:bold;
+    bottom:15px;
+    left:-3px;
+}
+/*------------------------------------------end of office and agent search page css------------------------------------------------------------*/
+#form1 #icon{
+    font-family:FontAwesome;
+    font-size:20px;
+    color:white;
+    height:30px;
+    background-color:#64cbf4;
+    text-align:center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    z-index:99;
+    padding-left:17px;
+    padding-right:17px;
+}
+#form1 #text{
+    text-align:center;
+    background-color:#effaff;
+    border:1px;
+    border-bottom:1px solid #d9d8d8;
+    border-top:1px solid #d9d8d8;
+    font-family:Roboto;
+    font-size:10px;
+    color:#4dc0eb;
+    padding:0px 18px 0px 18px;
+    z-index:100;
+    right:2px;
+}
+#form1 .textform2 {
+    border: 1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    width: 390px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right: 140px;
+}
+#form1 .textform1 {
+    border: 1px solid #d9d8d8;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    font-family: Roboto;
+    width: 390px;
+    font-size: 14px;
+    font-weight: normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.30);
+    text-align: center;
+    right: 135px;
+    top: 0px;
+}
+#button1 .searchbtn{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:300px;
+    height:45px;
+    cursor:pointer;
+}
+#form1 .Label1 {
+    bottom:35px;
+    right:200px;
+    font-size: 15px;
+    font-family: roboto;
+    color: red;
+}
+/*------------------------------end of policy and claim status page css---------------------------------------------------------------------*/
+#receipt p{
+    font-family:Bebas,FontAwesome;
+    font-size:15px;
+    color:#15677b;
+    padding:10px;
+    padding-left:20px; 
+}
+#receipt .lable{
+    font-family:Roboto;
+    font-size:14px;
+    color:#555555;
+    border-bottom:1px solid red;
+}
+#receipt .genrate{
+    border:none;
+    border-radius: 4px;
+    background-color:#f9a024;
+    border-bottom:2px solid #d86a07;
+    color:white;
+    font-size:15px;
+    font-family:Roboto;
+    font-weight:normal;
+    box-shadow: 1px 1px 5px rgba(127, 129, 129, 0.80);
+    width:200px;
+    height:45px;
+    cursor:pointer;
+    top:30px;
+    margin-left:35px;
+}
+/*-----------------------------------End of receipt page css--------------------------------------------------------------------------------*/

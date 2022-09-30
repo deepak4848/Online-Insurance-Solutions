@@ -1,0 +1,498 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3CD1D7D9-7329-468B-BA01-C551D066D4D3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Online_Insurance_Solutions</RootNamespace>
+    <AssemblyName>Online Insurance Solutions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44391</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AboutUs.aspx" />
+    <Content Include="Admin\AddOffice.aspx" />
+    <Content Include="Admin\AdminHomePage.aspx" />
+    <Content Include="Admin\changepassword.aspx" />
+    <Content Include="Admin\Content\bootstrap-theme.css" />
+    <Content Include="Admin\Content\bootstrap-theme.min.css" />
+    <Content Include="Admin\Content\bootstrap.css" />
+    <Content Include="Admin\Content\bootstrap.min.css" />
+    <Content Include="Admin\Content\font-awesome.css" />
+    <Content Include="Admin\Content\font-awesome.min.css" />
+    <Content Include="Admin\fonts\fontawesome-webfont.svg" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Admin\images\addoffice.png" />
+    <Content Include="Admin\images\admin.png" />
+    <Content Include="Admin\images\changpassword.jpg" />
+    <Content Include="Admin\images\LOGO.png" />
+    <Content Include="Admin\images\manageagent.png" />
+    <Content Include="Admin\images\manageclaim.png" />
+    <Content Include="Admin\images\managecustomer.png" />
+    <Content Include="Admin\images\manageoffice.png" />
+    <Content Include="Admin\images\managepolicy.png" />
+    <Content Include="Admin\ManageAgent.aspx" />
+    <Content Include="Admin\ManageClaim.aspx" />
+    <Content Include="Admin\ManageCustomer.aspx" />
+    <Content Include="Admin\ManageOffice.aspx" />
+    <Content Include="Admin\ManagePolicy.aspx" />
+    <Content Include="Admin\StyleSheet.css" />
+    <Content Include="Admin\StyleSheet1.css" />
+    <Content Include="AgentHomePage.aspx" />
+    <Content Include="AgentRegistration.aspx" />
+    <Content Include="AgentSearch.aspx" />
+    <Content Include="AgentSearch1.aspx" />
+    <Content Include="App_Data\LifeInsurance.mdf" />
+    <Content Include="App_Data\LifeInsurance_log.ldf">
+      <DependentUpon>LifeInsurance.mdf</DependentUpon>
+    </Content>
+    <Content Include="BankService.asmx" />
+    <Content Include="changepassword.aspx" />
+    <Content Include="ClaimPage.aspx" />
+    <Content Include="ClaimStatus.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="CustomerHomePage.aspx" />
+    <Content Include="CustomerRegistration.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="forgetpassword.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\aboutus.jpg" />
+    <Content Include="images\aboutus1.jpg" />
+    <Content Include="images\agent copy.png" />
+    <Content Include="images\agenticon.png" />
+    <Content Include="images\agtbg.jpg" />
+    <Content Include="images\baranchlocator.png" />
+    <Content Include="images\becomeagent.png" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\bg1.jpg" />
+    <Content Include="images\bg_repeat.png" />
+    <Content Include="images\buypolicy.png" />
+    <Content Include="images\cartoon.png" />
+    <Content Include="images\changepassword.png" />
+    <Content Include="images\changpassword.jpg" />
+    <Content Include="images\changpassword1.jpg" />
+    <Content Include="images\child.png" />
+    <Content Include="images\chintamani.png" />
+    <Content Include="images\chintamani1.png" />
+    <Content Include="images\claim.png" />
+    <Content Include="images\claimstatus.png" />
+    <Content Include="images\customer copy.png" />
+    <Content Include="images\cvv.png" />
+    <Content Include="images\downloadform.png" />
+    <Content Include="images\Ellipse1.png" />
+    <Content Include="images\facebook.png" />
+    <Content Include="images\findagent.png" />
+    <Content Include="images\forgot-password-cartoon.png" />
+    <Content Include="images\getacall.png" />
+    <Content Include="images\google.png" />
+    <Content Include="images\individual.png" />
+    <Content Include="images\insuranceplans.png" />
+    <Content Include="images\lifeins2.jpg" />
+    <Content Include="images\loginimage.png" />
+    <Content Include="images\loginnow.png" />
+    <Content Include="images\LOGO.png" />
+    <Content Include="images\makeaclaim.png" />
+    <Content Include="images\map.jpg" />
+    <Content Include="images\payment.png" />
+    <Content Include="images\peoplebg.png" />
+    <Content Include="images\policy.png" />
+    <Content Include="images\premimage.png" />
+    <Content Include="images\premiumcalc.png" />
+    <Content Include="images\premiumcalculator.png" />
+    <Content Include="images\premiumpay.png" />
+    <Content Include="images\register.png" />
+    <Content Include="images\renewpolicy.png" />
+    <Content Include="images\retirement.png" />
+    <Content Include="images\sprite-gender.png" />
+    <Content Include="images\Student-Login.png" />
+    <Content Include="images\trackpolicy.png" />
+    <Content Include="images\Your health insurace.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="InsurancePlans.aspx" />
+    <Content Include="InsurancePlans1.aspx" />
+    <Content Include="JavaScript.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="LogOut.aspx" />
+    <Content Include="OfficeSearch.aspx" />
+    <Content Include="OfficeSearch1.aspx" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap-theme.css" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap-theme.min.css" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap.css" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap.min.css" />
+    <Content Include="packages\bootstrap.3.3.7\content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="packages\bootstrap.3.3.7\content\Scripts\bootstrap.js" />
+    <Content Include="packages\bootstrap.3.3.7\content\Scripts\bootstrap.min.js" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\Content\font-awesome.css" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\Content\font-awesome.min.css" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\Content\font-awesome.css" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\Content\font-awesome.min.css" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\fontawesome-webfont.svg" />
+    <None Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1-vsdoc.js" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.js" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.min.js" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.slim.min.js" />
+    <None Include="packages\jQuery.3.1.1\Tools\jquery-3.1.1.intellisense.js" />
+    <Content Include="PaymentPage.aspx" />
+    <Content Include="PaymentPage1.aspx" />
+    <Content Include="PayPremiumPage.aspx" />
+    <Content Include="PolicyformPage.aspx" />
+    <Content Include="PolicyStatus.aspx" />
+    <Content Include="PremiumCalculatorPage.aspx" />
+    <Content Include="PremiumCalculatorPage1.aspx" />
+    <Content Include="ReceiptPage.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="SignUpPage.aspx" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddOffice.aspx.cs">
+      <DependentUpon>AddOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminHomePage.aspx.cs">
+      <DependentUpon>AdminHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMasterPage2.master.cs">
+      <DependentUpon>AdminMasterPage2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\changepassword.aspx.cs">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageAgent.aspx.cs">
+      <DependentUpon>ManageAgent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageClaim.aspx.cs">
+      <DependentUpon>ManageClaim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageCustomer.aspx.cs">
+      <DependentUpon>ManageCustomer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManageOffice.aspx.cs">
+      <DependentUpon>ManageOffice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ManagePolicy.aspx.cs">
+      <DependentUpon>ManagePolicy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentHomePage.aspx.cs">
+      <DependentUpon>AgentHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentRegistration.aspx.cs">
+      <DependentUpon>AgentRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentSearch.aspx.cs">
+      <DependentUpon>AgentSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgentSearch1.aspx.cs">
+      <DependentUpon>AgentSearch1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Content Include="App_Code\BankService.cs">
+      <SubType>Component</SubType>
+    </Content>
+    <Compile Include="changepassword.aspx.cs">
+      <DependentUpon>changepassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClaimPage.aspx.cs">
+      <DependentUpon>ClaimPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClaimStatus.aspx.cs">
+      <DependentUpon>ClaimStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerHomePage.aspx.cs">
+      <DependentUpon>CustomerHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerRegistration.aspx.cs">
+      <DependentUpon>CustomerRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgetpassword.aspx.cs">
+      <DependentUpon>forgetpassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsurancePlans.aspx.cs">
+      <DependentUpon>InsurancePlans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsurancePlans1.aspx.cs">
+      <DependentUpon>InsurancePlans1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage1.master.cs">
+      <DependentUpon>MasterPage1.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage2.master.cs">
+      <DependentUpon>MasterPage2.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfficeSearch.aspx.cs">
+      <DependentUpon>OfficeSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OfficeSearch1.aspx.cs">
+      <DependentUpon>OfficeSearch1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentPage.aspx.cs">
+      <DependentUpon>PaymentPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentPage1.aspx.cs">
+      <DependentUpon>PaymentPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PayPremiumPage.aspx.cs">
+      <DependentUpon>PayPremiumPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolicyformPage.aspx.cs">
+      <DependentUpon>PolicyformPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PolicyStatus.aspx.cs">
+      <DependentUpon>PolicyStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PremiumCalculatorPage.aspx.cs">
+      <DependentUpon>PremiumCalculatorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PremiumCalculatorPage1.aspx.cs">
+      <DependentUpon>PremiumCalculatorPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiptPage.aspx.cs">
+      <DependentUpon>ReceiptPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpPage.aspx.cs">
+      <DependentUpon>SignUpPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMasterPage2.master" />
+    <Content Include="Admin\Content\bootstrap-theme.css.map" />
+    <Content Include="Admin\Content\bootstrap-theme.min.css.map" />
+    <Content Include="Admin\Content\bootstrap.css.map" />
+    <Content Include="Admin\Content\bootstrap.min.css.map" />
+    <Content Include="Admin\fonts\BEBAS___.TTF" />
+    <Content Include="Admin\fonts\fontawesome-webfont.eot" />
+    <Content Include="Admin\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff" />
+    <Content Include="Admin\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Admin\fonts\FontAwesome.otf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Admin\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="fonts\BEBAS___.TTF" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="MasterPage1.master" />
+    <Content Include="MasterPage2.master" />
+    <None Include="packages.config" />
+    <Content Include="packages\bootstrap.3.3.7\bootstrap.3.3.7.nupkg" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap-theme.css.map" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap-theme.min.css.map" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap.css.map" />
+    <Content Include="packages\bootstrap.3.3.7\content\Content\bootstrap.min.css.map" />
+    <Content Include="packages\bootstrap.3.3.7\content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages\bootstrap.3.3.7\content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="packages\bootstrap.3.3.7\content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="packages\bootstrap.3.3.7\content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\fontawesome-webfont.eot" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\fontawesome-webfont.woff" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="packages\Font.Awesome.4.7.0\Content\fonts\FontAwesome.otf" />
+    <Content Include="packages\Font.Awesome.4.7.0\Font.Awesome.4.7.0.nupkg" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\fontawesome-webfont.eot" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\fontawesome-webfont.ttf" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\fontawesome-webfont.woff" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\fontawesome-webfont.woff2" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\content\fonts\FontAwesome.otf" />
+    <Content Include="packages\FontAwesomeToolkit.4.7\FontAwesomeToolkit.4.7.nupkg" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.min.map" />
+    <Content Include="packages\jQuery.3.1.1\Content\Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="packages\jQuery.3.1.1\jQuery.3.1.1.nupkg" />
+    <Content Include="packages\jQuery.3.1.1\Tools\common.ps1" />
+    <Content Include="packages\jQuery.3.1.1\Tools\install.ps1" />
+    <Content Include="packages\jQuery.3.1.1\Tools\uninstall.ps1" />
+    <Content Include="packages\repositories.config" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="SurakshaLifeInsurance.docx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62045</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44391/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
